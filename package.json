@@ -1,0 +1,23 @@
+{
+  "name": "23andme-snps",
+  "version": "1.0.0",
+  "description": "Get 23andMe SNPs",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vporta/23andMe-SNPs.git"
+  },
+  "keywords": [
+    "All",
+    "SNPs"
+  ],
+  "author": "Vincent Porta <vporta7@gmail.com> (http://www.vincentjporta.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vporta/23andMe-SNPs/issues"
+  },
+  "homepage": "https://github.com/vporta/23andMe-SNPs#readme"
+}
