@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/vporta/23andMe-SNPs/issues"
   },
-  "homepage": "https://github.com/vporta/23andMe-SNPs#readme"
+  "homepage": "https://github.com/vporta/23andMe-SNPs#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
 }
