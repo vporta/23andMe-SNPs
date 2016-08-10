@@ -15,9 +15,6 @@ describe('23andme-snps', function() {
             }
         }); 
 
-        it("should contain chromosome 'chromosome'", function() {
-            expect(SNPs.all).to.have.any.keys('chromosome');
-        });
     });
 
     describe('random', function() {
