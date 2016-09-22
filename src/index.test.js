@@ -21,6 +21,13 @@ describe('23andme-snps', function() {
         it('it should return a random item from the SNPs.all', function() {
             var randomItem = SNPs.random();
             expect(SNPs.all).to.include(randomItem);
-        })
-    })
+        });
+        it('should return an array of random items if passed a number', function() {
+            var randomItems = SNPs.random(3);
+            expect(randomItems).to.have.length(3);
+            randomItems.forEach(function(item) {
+                expect(SNPs.all).to.include(item);
+            });
+        });
+    });
 });
