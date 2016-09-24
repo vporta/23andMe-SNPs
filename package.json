@@ -1,5 +1,6 @@
 {
   "name": "23andme-snps",
+  "version": "1.1.2",
   "description": "Get 23andMe SNPs",
   "main": "src/index.js",
   "scripts": {
