@@ -1,5 +1,5 @@
-var expect = require('chai').expect;
-var SNPs = require('./index');
+import {expect} from 'chai'
+import SNPs from './index'
 
 describe('23andme-snps', function() {
 

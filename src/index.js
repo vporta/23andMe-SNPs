@@ -1,5 +1,6 @@
-var uniqueRandomArray = require('unique-random-array');
-var snps23andMe = require ('./snps.json');
+import uniqueRandomArray from 'unique-random-array';
+import snps23andMe from './snps.json';
+
 var getRandomItem = uniqueRandomArray(snps23andMe);
 
 module.exports = {
